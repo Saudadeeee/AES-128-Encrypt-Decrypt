@@ -24,8 +24,6 @@ Run the Program
 
 Run the compiled program:
 
-bash
-Sao chép mã
 ./aes_tool
 You will be prompted to choose between encryption and decryption.
 
@@ -42,7 +40,6 @@ Key
 The AES-128 algorithm requires a 16-byte key. Modify the key array in the source code to use your desired key.
 
 cpp
-Sao chép mã
 unsigned char key[16] = { /* 16 bytes key here */ };
 Padding
 The program uses PKCS7 padding to ensure the input string fits the 16-byte block size required by AES. The padding is automatically handled during encryption and removed during decryption.
@@ -53,10 +50,8 @@ message.aes: The file where the encrypted message is saved.
 Example
 Encrypt
 bash
-Sao chép mã
 ./aes_tool
 mathematica
-Sao chép mã
 AES-128 Encryption/Decryption Tool
 1. Encrypt message
 2. Decrypt message
@@ -66,10 +61,8 @@ Encrypted message saved to message.aes
 Encrypted message (hex): 7e0a74d62b8a4ed1e482a0b7e4bbf23e
 Decrypt
 bash
-Sao chép mã
 ./aes_tool
 mathematica
-Sao chép mã
 AES-128 Encryption/Decryption Tool
 1. Encrypt message
 2. Decrypt message
