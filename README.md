@@ -68,3 +68,9 @@ AES-128 Encryption/Decryption Tool
 2. Decrypt message
 Enter option (1 or 2): 2
 Decrypted message: Hello, World!
+
+## References
+1. https://en.wikipedia.org/wiki/Rijndael_S-box
+2. https://csrc.nist.gov/files/pubs/fips/197/final/docs/fips-197.pdf
+3. https://en.wikipedia.org/wiki/AES_key_schedule
+4. https://viblo.asia/p/cau-truc-va-thuat-toan-advanced-encryption-standard-chuan-ma-hoa-nang-cao-924lJYe8ZPM
